@@ -126,7 +126,8 @@ h1,h2,h3,h4,h5,h6{
 }
 
 
-.form a{
+.form a,
+.landing a.x{
 	padding: .3em 0;
 	margin: 0 1em;
 	display: inline-block;
@@ -135,7 +136,8 @@ h1,h2,h3,h4,h5,h6{
 	text-decoration: none;
 }
 
-.form a:hover{
+.form a:hover,
+.landing a.x:hover{
 	text-decoration: none;
 	border-bottom: solid 2px rgb(240,79,37);
 }

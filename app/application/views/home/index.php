@@ -10,5 +10,6 @@ We are welcoming both the young and the old. As old as Cobol/Pascal ninjas and
 as young us 9 year olds who just got their hands on coding yesterday :)</p>
 
 <?php echo anchor("home/register","Sign Up Now", "class='btn btn-lg btn-success'"); ?>
+<?php echo anchor("#","Tell Me More","class='x'"); ?>
 
 </div>
