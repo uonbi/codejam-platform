@@ -1,0 +1,58 @@
+<?php
+class Member_model extends CI_Model{
+
+	function __construct(){
+		parent::__construct();
+	}
+
+	function register_member(){
+		$member = array(
+			"first_name" => $this->input->post("first_name"),
+			"last_name" => $this->input->post("last_name"),
+			"institution" => $this->input->post("institution"),
+			"age" => $this->input->post("age"),
+			"gender" => $this->input->post("gender"),
+			"phone" => $this->input->post("phone"),
+			"github" => $this->input->post("github"),
+			"email" => $this->input->post("email"),
+			"password"=> md5(md5($this->input->post("password"))) #my crude sec hack
+			);
+
+		return $this->db->insert("member",$member);
+	}
+
+	function get_member($arg,$array=FALSE){
+		if($arg > 0){
+			#mid
+			$this->db->where("mid",$mid);
+		}else{
+			#email assumed
+			$this->db->where("email",$arg);
+		}
+		$result = $this->db->get("member");
+		if($result->num_rows > 0){
+			if($array){
+				$result = $result->result_array();
+			}else{
+				$result = $result->result();
+			}
+			return $result[0];
+		}
+		return FALSE;
+	}
+
+	function member_login($email,$password){
+		$this->db->where(
+			array(
+				"email"=>$email,
+				"password"=>md5(md5($password))
+				)
+			);
+		$result = $this->db->get("member");
+		if($result->num_rows > 0){
+			$result = $result->result_array();
+			return $result[0];
+		}
+		return FALSE;
+	}
+}
