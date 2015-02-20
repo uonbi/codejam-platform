@@ -191,27 +191,40 @@ h1,h2,h3,h4,h5,h6{
 /*do responsive one for mobile, later */
 
 .landing{
-	background: url(../img/cross1.jpg) 0 0px no-repeat;
+	background: #272822 url(../img/code-bg.png) 0 0 no-repeat;
 	min-height: 340px;
-	padding: 10px 20px;
+	padding: 10px 35px;
+	padding-right: 50%;
 	/*text-align: center;*/
 }
 
 .landing h1{
 	padding-top: 20px;
+	color: #A1D82E;
 	font-size: 40px;
 	font-weight: bold;
 }
 
-.landing h1 sub{
+.landing p.sub{
 	font-size: 25px;
-	font-weight: normal;
-	color: rgb(37,64,143);
+	font-weight: bold;
+	color: #E4267E;
+	margin: 10px 0;
+}
+
+.landing p.call{
+	border-left: solid 3px #E4267E;
+	padding-left: 5px;
+}
+
+.landing a.btn{
+	margin-top: 15px;
 }
 
 .landing a{
 	margin-right: 10px;
 }
+
 
 .landing p{
 	font-weight: bold;
@@ -456,3 +469,10 @@ body {
 
 /*end of others */
 
+/*Responsiveness*/
+
+@media(max-width:768px){
+	.landing{
+		padding-right: 20px;
+	}
+}

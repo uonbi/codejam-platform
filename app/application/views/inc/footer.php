@@ -1,8 +1,8 @@
 
 </div>
 <div class="footer">
-	&copy; 2014 <a href="http://www.focuskenya.org" target="_blank">FOCUS Kenya</a> &bull; Engineered with <i class="fa fa-heart"></i> at 
-	<a href="http://labs.beyon.de/" target="_blank">Beyonde Labs</a>.
+	&copy; 2015 <a href="http://sci.uonbi.ac.ke/" target="_blank">School of Computing &amp; Informatics</a> &bull; Engineered with <i class="fa fa-heart"></i> by 
+	<a href="http://github.com/uonbi" target="_blank">Nerds @ SCI</a>.
 </div>
 
 
