@@ -1,7 +1,7 @@
 
 </div>
 <div class="footer">
-	&copy; 2015 <a href="http://sci.uonbi.ac.ke/" target="_blank">School of Computing &amp; Informatics</a> &bull; Engineered with <i class="fa fa-heart"></i> by 
+	&copy; 2015 <a href="http://sci.uonbi.ac.ke/" target="_blank">School of Computing &amp; Informatics</a>, <a href="http://www.uonbi.ac.ke/" target="_blank">University of Nairobi</a> &bull; Engineered with <i class="fa fa-heart"></i> by 
 	<a href="http://github.com/uonbi" target="_blank">Nerds @ SCI</a>.
 </div>
 
