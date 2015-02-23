@@ -34,6 +34,9 @@ if($post_gender != ""){
 		echo form_label("Phone Number<span class='right'>GitHub Username </span>","phone");
 
 
+		echo form_input("institution",set_value("institution"));
+		echo form_label("University, Organization or School","institution");
+
 		echo form_input("email",set_value("email"));
 		echo form_label("Email (Will be used for logging in)","email");
 		echo form_password("password",set_value("password"),"class='half'");
