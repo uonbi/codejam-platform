@@ -22,6 +22,11 @@ class Home extends CI_Controller {
 		$this->_load_view();
 	}
 
+	public function about(){
+		$this->data['main'] = "home/about";
+		$this->_load_view();
+	}
+
 	public function register($mode="form"){
 		if($mode=="form"){
 			$this->data['main'] = "home/register";

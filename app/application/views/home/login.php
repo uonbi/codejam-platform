@@ -14,7 +14,7 @@
 		echo form_password("password","");
 		echo form_label("Password","password");
 		echo form_submit("login","Login","class='btn btn-lg btn-success'");
-		// echo anchor("home/reset/form","Forgot Password?");
+		echo anchor("home/register","Register");
 
 	?>
 	</div>

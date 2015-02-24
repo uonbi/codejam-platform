@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="icon" href="<?php echo base_url();?>favicon.ico">
 
-    <title>#SCICodeJam &#187; Code till you drop</title>
+    <title>#5yrCodeJam &#187; Celebrating 5 years of writing code</title>
     <link href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.css" rel="stylesheet">
     <link href="<?php echo base_url();?>assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <?php
@@ -36,12 +36,14 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">#SCICodeJam</a> <span class="beta">beta</span>
+          <a class="navbar-brand" href="#">#5yrCodeJam</a> <span class="beta">beta</span>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li class="active"><?php echo anchor("home","Home"); ?></li>
-            <li><?php echo anchor("http://codejam.sci.website","Past Challenges"); ?></li>
+            <li><?php echo anchor("home/about","About"); ?></li>
+            <li><?php echo anchor("http://codejam.sci.website","Past Challenges",
+                      "target='_blank'"); ?></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li class="dropdown active-inverse">
