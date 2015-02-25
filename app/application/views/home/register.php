@@ -47,6 +47,12 @@ if($post_gender != ""){
 		echo form_password("password_confirm",set_value("password_confirm"),"class='half'");
 		echo form_label("Set new Password for this system <span class='right'>Confirm Password</span>","password");
 
+		echo form_input("human",set_value("human"));
+		echo form_label("Just checking whether you are human: type 'human I am' in upper case :-)","human");
+
+		echo form_hidden("human_","HUMAN I AM");
+
+
 		echo form_submit("register","Register","class='btn btn-lg btn-success'");
 
 		?>

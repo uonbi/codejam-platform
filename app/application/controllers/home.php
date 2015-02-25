@@ -81,6 +81,11 @@ class Home extends CI_Controller {
 						'field'=>'password_confirm',
 						'label'=>'Confirm Password',
 						'rules'=>'required|matches[password]'
+					),
+					array(
+						'field'=>'human',
+						'label'=>'Human Test',
+						'rules'=>"required|matches[human_]"
 					)
 					);
 			$this->form_validation->set_rules($rules);

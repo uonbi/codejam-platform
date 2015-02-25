@@ -44,6 +44,7 @@ CREATE TABLE IF NOT EXISTS  `ci_sessions` (
 );
 
 CREATE TABLE email_template(
-
-
+	etid int primary key auto_increment,
+	name varchar(20),
+	html text
 );
