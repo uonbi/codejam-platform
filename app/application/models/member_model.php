@@ -6,9 +6,13 @@ class Member_model extends CI_Model{
 	}
 
 	function register_member(){
+		#fix name capitalization for the lousy chaps :) - OCD
+		$first_name = ucfirst(strtolower($this->input->post("first_name")));
+		$last_name = ucfirst(strtolower($this->input->post("last_name")));
+
 		$member = array(
-			"first_name" => $this->input->post("first_name"),
-			"last_name" => $this->input->post("last_name"),
+			"first_name" => $first_name,
+			"last_name" => $last_name,
 			"institution" => $this->input->post("institution"),
 			"age" => $this->input->post("age"),
 			"gender" => $this->input->post("gender"),
