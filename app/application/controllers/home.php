@@ -96,8 +96,8 @@ class Home extends CI_Controller {
 					$member_count = $this->member_model->get_member_count();
 
 					$_msg['html'] = "<p>Hello {name},<br/><br/>
-Thank you for registering for our #5yrCodeJam Challenge, we're glad to have you 
-on board! You are code ninja #$member_count. See at the challenge, when it opens.</br><br/>
+Thank you for registering for our <strong>#5yrCodeJam Challenge</strong>, we're glad to have you 
+on board! You are code ninja <strong>#$member_count</strong>. See you at the challenge, when it opens.</br><br/>
 Feel free to get in touch with us in case of any queries or comments.</p>
 					";
 					$_msg['subject'] = "Welcome to #5yrCodeJam Challenge";
