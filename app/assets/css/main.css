@@ -469,6 +469,10 @@ body {
     scrollbar-face-color: #888;
 }
 
+li.stat a strong{
+	color:#f04f25;
+}
+
 /*end of others */
 
 /*Responsiveness*/

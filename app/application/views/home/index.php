@@ -3,7 +3,7 @@
 
 <p class="sub">>go hard || cd ~</p>
 
-<p>Organized by <strong>@SCICodeJam (University of Nairobi)</strong>, with great support from our 
+<p>Organized by <strong>@SCICodeJam</strong>, with great support from our 
 	friends at <a href="http://angani.co" target="_blank">Angani</a> and <a href="http://ihub.co.ke" target="_blank">iHub</a></p>
 
 <p class="call">As we celebrate the 5 years of tech community, we want to 

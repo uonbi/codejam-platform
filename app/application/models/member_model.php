@@ -55,4 +55,9 @@ class Member_model extends CI_Model{
 		}
 		return FALSE;
 	}
+
+	function get_member_count(){
+		$result = $this->db->get("member");
+		return $result->num_rows();
+	}
 }

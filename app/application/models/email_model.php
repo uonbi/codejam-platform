@@ -13,8 +13,8 @@ class Email_model extends CI_Model{
 		//config html email
 		$_config['mailtype'] = "html";
 		$this->email->initialize($_config);
-		$this->data['from_email'] = "info@champions.focuskenya.org";
-		$this->data['from_name'] = "FOCUS Champions";
+		$this->data['from_email'] = "codejam@sci.website";
+		$this->data['from_name'] = "#SCICodeJam";
 		$this->data['bcc'] = "profnandaa@gmail.com"; //for debugging
 	}
 
@@ -36,7 +36,7 @@ class Email_model extends CI_Model{
 		if($html){
 			//html email, merge $msg with template
 			//using str_replace
-			$temp = $this->get_template();
+			$temp = $this->get_template("welcome");
 			$msg = str_replace("{body}", $msg, $temp);
 			$this->email->message($msg);
 		}else{
@@ -44,7 +44,7 @@ class Email_model extends CI_Model{
 			$this->email->message($msg);
 		}
 
-		// var_dump($msg); die();
+		var_dump($msg); die();
 		
 		$this->email->send();
 

@@ -8,6 +8,12 @@ if($post_gender != ""){
 
 ?>
 <div class="row">
+	<div class="col-md-6" style="padding-top:60px;">
+		<?php
+		echo validation_errors('<div class="alert alert-danger" role="alert">','</div>');
+
+		?>
+	</div>
 	<div class="col-md-6">
 		<h3>Quick Registration </h3>
 
@@ -15,8 +21,6 @@ if($post_gender != ""){
 			Please provide few basic details about yourself below.
 		</div>
 		<?php
-
-		echo validation_errors('<div class="alert alert-danger" role="alert">','</div>');
 
 		echo form_open("home/register/submit","class='form'");
 		echo form_input("first_name",set_value("first_name"),"class='half'");

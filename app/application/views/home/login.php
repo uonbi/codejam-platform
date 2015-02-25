@@ -1,5 +1,9 @@
 <div class="row">
 	<div class="col-md-6">
+
+		
+	</div>
+	<div class="col-md-6">
 		<h2><i class='fa fa-lock'></i> Login</h2>
 	<?php
 

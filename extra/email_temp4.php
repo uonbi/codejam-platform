@@ -8,7 +8,7 @@
 						<table width="100%" cellpadding="0" cellspacing="0">
 							<tbody><tr>
 								<td style="font:11px/12px Arial,Helvetica,sans-serif;color:#4e4e4e">
-									{intro}
+									Eat &bull; Code &bull; Sleep
 								</td>
 								<td style="font:11px/12px Arial,Helvetica,sans-serif;color:#4e4e4e" align="right">
 									
@@ -23,7 +23,7 @@
 							<tbody><tr>
 								<td style="line-height:0">
 									<a style="font:21px/22px Arial,Helvetica,sans-serif;color:#fefefe; font-weight:bold; text-decoration:none;" 
-									href="http://codejam.sci.website/challenge">{brand}</a>
+									href="http://codejam.sci.website/challenge">#5yrCodeJam</a>
 								</td>
 								<td style="font:11px/12px Arial,Helvetica,sans-serif;color:#fff" align="right">
 									<a style="color:#fff" href="http://codejam.sci.website/challenge/home/user/login" target="_blank">Sign In</a> or 
@@ -37,7 +37,7 @@
 				
 <tr>
 	<td style="font:18px/20px Arial,Helvetica,sans-serif;color:#4d4d4d;padding:24px 30px 18px" bgcolor="#f5f5f5">
-		{title}
+		Welcome to the #5yrCodeJam Challenge
 	</td>
 </tr>
 
@@ -51,8 +51,8 @@
 							</tr>
 							
 <tr>
-	<td style="padding:0 0 24px">
-		<a href="{link}" target="_blank"><img class="CToWUd" src="{img_src}" style="vertical-align:top" alt="{img_alt}" height="45" width="161" border="0"></a>
+	<td style="padding:24px 0;">
+		<a href="http://codejam.sci.website" target="_blank"><img class="CToWUd" src="http://codejam.sci.website/challenge/assets/img/lets_code.gif" style="vertical-align:top" alt="Let's Code" height="45" width="161" border="0"></a>
 	</td>
 </tr>
 
@@ -63,7 +63,7 @@
 							</tr>
 							<tr>
 								<td style="font:bold 14px/16px Arial,Helvetica,sans-serif;color:#363636;padding:0 0 7px">
-									{sign_off}
+									The CodeJam Team
 								</td>
 							</tr>
 							<tr>

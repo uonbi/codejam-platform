@@ -42,3 +42,8 @@ CREATE TABLE IF NOT EXISTS  `ci_sessions` (
 	PRIMARY KEY (session_id),
 	KEY `last_activity_idx` (`last_activity`)
 );
+
+CREATE TABLE email_template(
+
+
+);

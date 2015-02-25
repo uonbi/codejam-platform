@@ -88,17 +88,25 @@ class Home extends CI_Controller {
 			if($this->form_validation->run()){
 				if($this->member_model->register_member()){
 					#email user, later will add verification code
-					// $this->load->model("email_model");
+					$this->load->model("email_model");
 
-					// $name = $this->input->post("first_name");
-					// $to_email = $this->input->post("email");
+					$name = $this->input->post("first_name");
+					$to_email = $this->input->post("email");
 
-					// $_msg = $this->email_model->get_msg("welcome");
-					// $msg = $_msg['html'];
-					// $msg = str_replace("{name}", $name, $msg);
-					// $subject = $_msg['subject'];
+					$member_count = $this->member_model->get_member_count();
 
-					// $this->email_model->send($to_email,$subject,$msg);
+					$_msg['html'] = "<p>Hello {name},<br/><br/>
+Thank you for registering for our #5yrCodeJam Challenge, we're glad to have you 
+on board! You are code ninja #$member_count. See at the challenge, when it opens.</br><br/>
+Feel free to get in touch with us in case of any queries or comments.</p>
+					";
+					$_msg['subject'] = "Welcome to #5yrCodeJam Challenge";
+
+					$msg = $_msg['html'];
+					$msg = str_replace("{name}", $name, $msg);
+					$subject = $_msg['subject'];
+
+					$this->email_model->send($to_email,$subject,$msg);
 
 					#auto-login user
 					$user = $this->member_model->get_member($this->input->post("email"),TRUE);

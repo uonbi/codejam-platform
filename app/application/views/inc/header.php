@@ -46,6 +46,11 @@
                       "target='_blank'"); ?></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
+            <?php
+              $this->load->model("member_model");
+              $member_count = $this->member_model->get_member_count();
+            ?>
+            <li class="stat"><?php echo anchor("#","<i class='fa fa-plug'></i> <strong>$member_count Code Ninjas</strong> are Plugged In");?></li>
             <li class="dropdown active-inverse">
             <?php if($this->session->userdata('is_logged_in')){ ?>
               <a href="#" class="dropdown-toggle white" data-toggle="dropdown"><i class="fa fa-arrow-circle-right"></i> 
