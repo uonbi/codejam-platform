@@ -66,7 +66,7 @@ the community.
 <ul>
 <li><a href="https://github.com/profnandaa" target="_blank">Anthony Nandaa</a> - SCI</li>
 <li><a href="https://github.com/denisKaranja" target="_blank">Denis Karanja</a> - SCI</li>
-<li><a href="https://github.com/obanda" target="_blank">Sharon Obada</a> - SCI</li>
+<li><a href="https://github.com/obanda" target="_blank">Sharon Obanda</a> - SCI</li>
 <li><a href="https://github.com/shimanyi" target="_blank">Valentino Shimanyi</a> - SCI</li>
 <li>Riyaz Bachani - <a href="http://angani.co" target="_blank">Angani</a></li>
 <li><a href="https://twitter.com/NdigaJn" target="_blank">James Ndiga</a> - <a href="http://ihub.co.ke">iHub</li>
