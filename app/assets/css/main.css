@@ -473,6 +473,12 @@ li.stat a strong{
 	color:#f04f25;
 }
 
+img.sponsors{
+	opacity: .7;
+	margin: 35px auto;
+	display: block;
+}
+
 /*end of others */
 
 /*Responsiveness*/

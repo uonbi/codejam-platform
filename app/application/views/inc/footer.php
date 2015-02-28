@@ -1,4 +1,5 @@
 
+<img class="sponsors" src="<?php echo base_url(); ?>assets/img/sponsors.gif"></img>
 </div>
 <div class="footer">
 	&copy; 2015 <a href="http://sci.uonbi.ac.ke/" target="_blank">School of Computing &amp; Informatics</a>, <a href="http://www.uonbi.ac.ke/" target="_blank">University of Nairobi</a> &bull; Engineered with <i class="fa fa-heart"></i> by 
