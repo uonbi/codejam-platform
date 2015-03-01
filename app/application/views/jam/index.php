@@ -6,6 +6,6 @@
 <p class="call">We will be posting the
  challenges on Monday, March 2, 2015 &mdash; <?php echo anchor("home/about","Read More");?></p>
 
- <?php echo anchor("http://codejam.sci.website","Practice", "class='btn btn-lg btn-success' target='_blank'"); ?>
+ <?php echo anchor("jam/challenge","Go to Challenge", "class='btn btn-lg btn-success' target='_blank'"); ?>
 
 </div>

@@ -22,4 +22,9 @@ class Jam extends CI_Controller {
 		$this->data['main'] = "jam/index";
 		$this->_load_view();
 	}
+
+	public function challenge(){
+		$this->data['main'] = "jam/challenge";
+		$this->_load_view();
+	}
 }
