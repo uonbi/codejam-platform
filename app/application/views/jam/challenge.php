@@ -50,15 +50,8 @@ up soon.</p>
 </div>
 
 <div class="stats-note">
-<?php
-// $val1 = '2015-03-4 10:00:00.939';
-
-// $datetime1 = new DateTime($val1);
-// $datetime2 = new DateTime();
-// var_dump($datetime2-$datetime1);
-?>
 <p><strong>2</strong> Submissions Received So far</p>
-<p><strong><?php echo($timer); ?> Remaining</p><!-- @deebeat -->
+<p><strong><?php echo($time_to_end); ?> Remaining</p>
 </div>
 </div>
 
