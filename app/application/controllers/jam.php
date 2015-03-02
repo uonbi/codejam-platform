@@ -7,6 +7,9 @@ class Jam extends CI_Controller {
 		parent::__construct();
 		$this->load->model("member_model");
 
+		#@deebeat
+		$this->load->model("timer_model");
+
 	}
 
 	private function is_logged_in(){
@@ -26,6 +29,15 @@ class Jam extends CI_Controller {
 	public function challenge(){
 		$this->data['main'] = "jam/challenge";
 		$this->data['active'] = "challenge";
+
+		#@deebeat
+		$this->data['timer'] = timer();
+
 		$this->_load_view();
+	}
+
+	#@deebeat
+	private function timer(){
+		return $this->timer_model->remaining_time();
 	}
 }

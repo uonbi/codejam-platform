@@ -58,7 +58,7 @@ up soon.</p>
 // var_dump($datetime2-$datetime1);
 ?>
 <p><strong>2</strong> Submissions Received So far</p>
-<p><strong>Hours Remaining < 46</p>
+<p><strong><?php echo($timer); ?> Remaining</p><!-- @deebeat -->
 </div>
 </div>
 
