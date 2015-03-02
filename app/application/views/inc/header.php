@@ -39,9 +39,18 @@
           <a class="navbar-brand" href="#">#5yrCodeJam</a> <span class="beta">beta</span>
         </div>
         <div class="navbar-collapse collapse">
+          <?php
+          function menu_is_active($menu,$active){
+            if($active == $menu){
+              return "active";
+            }
+          }
+
+          ?>
           <ul class="nav navbar-nav">
-            <li class="active"><?php echo anchor("home","Home"); ?></li>
-            <li><?php echo anchor("home/about","About"); ?></li>
+            <li class="<?php echo menu_is_active("home",$active); ?>"><?php echo anchor("home","Home"); ?></li>
+            <li class="<?php echo menu_is_active("about",$active); ?>"><?php echo anchor("home/about","About"); ?></li>
+            <li class="<?php echo menu_is_active("challenge",$active); ?>"><?php echo anchor("jam/challenge","Challenge"); ?></li>
             <li><?php echo anchor("http://codejam.sci.website","Past Challenges",
                       "target='_blank'"); ?></li>
           </ul>

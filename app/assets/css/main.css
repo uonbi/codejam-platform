@@ -4,13 +4,13 @@
 */
 
 /*Theme colors:
-	red (#f04f25), blue (#25408f, #3A619D)
+	red (#D14233), blue (#25408f, #3A619D)
 	green: #60B044;
 
 */
 
 .red{
-	color:#f04f25;
+	color:#D14233;
 }
 
 .blue{
@@ -273,7 +273,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 .c-profile:hover{
-	border-left: solid 3px #f04f25;
+	border-left: solid 3px #D14233;
 }
 
 .c-profile:hover h4{
@@ -370,7 +370,7 @@ table.table{
 }
 
 .dropdown-menu > li > a:hover{
-	background: #f04f25;
+	background: #D14233;
 	color: #fefefe;
 }
 
@@ -415,7 +415,7 @@ i.complete{
 }
 
 li.active-inverse{
-	background: #f04f25;
+	background: #D14233;
 	color: #fefefe;
 }
 
@@ -470,13 +470,36 @@ body {
 }
 
 li.stat a strong{
-	color:#f04f25;
+	color:#D14233;
 }
 
 img.sponsors{
 	opacity: .7;
 	margin: 35px auto;
 	display: block;
+}
+
+div.side-note{
+	font-size: 1.3em;
+	font-style: italic;
+	color: #aaa;
+	border-left: solid 5px #D14233;
+	padding-left: 5px;
+	margin: 100px 0 0 0;
+	font-family: Georgia;
+}
+
+div.stats-note{
+	background: #D14233;
+	color: #fefefe;
+	padding: 10px;
+	border-left: solid 5px #555;
+}
+
+.stats-note p{
+	line-height: 1em;
+	border-bottom: solid 1px #bebebe;
+	padding: 5px;
 }
 
 /*end of others */

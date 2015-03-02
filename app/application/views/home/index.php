@@ -11,5 +11,6 @@ crown the kings and queens of code! Are you up for the challenge?</p>
 
 <?php echo anchor("home/register","Sign Up Now", "class='btn btn-lg btn-success'"); ?>
 <?php echo anchor("home/about","Tell Me More","class='x'"); ?>
+<?php echo anchor("jam/challenge","The Challenge is now out!","class='x'"); ?>
 
 </div>

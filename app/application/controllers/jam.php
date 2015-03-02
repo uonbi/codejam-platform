@@ -25,6 +25,7 @@ class Jam extends CI_Controller {
 
 	public function challenge(){
 		$this->data['main'] = "jam/challenge";
+		$this->data['active'] = "challenge";
 		$this->_load_view();
 	}
 }

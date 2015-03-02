@@ -6,6 +6,7 @@ class Home extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model("member_model");
+		$this->data['active'] = "home";
 	}
 
 	private function is_logged_in(){
@@ -24,6 +25,7 @@ class Home extends CI_Controller {
 
 	public function about(){
 		$this->data['main'] = "home/about";
+		$this->data['active'] = "about";
 		$this->_load_view();
 	}
 
