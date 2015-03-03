@@ -27,16 +27,33 @@
 	Give your answer correct to ten(10) decimal places.
 </p>
 
-<h4>How to Submit</h4>
+<h4><i class="fa fa-comments"></i> Got any Questions/Comments?</h4>
+<p>Do you have any questions, or you need clarification on anything? 
+	The team is more than ready to respond to you:</p>
+<ul>
+	<li>Raise an issue on <a href="https://github.com/SCICodeJam/5yrCodeJam/issues"
+		 target="_blank">the GitHub repo here</a>,</li>
+	<li>Tweet us <a href="https://twitter.com/SCICodeJam"
+		 target="_blank">@SCICodeJam</a>, OR</li>
+	<li>Send us an email <a href="mailto:codejam@sci.website">codejam@sci.website</a></li>
+</ul>
+
+<h4><i class="fa fa-send"></i> How to Submit</h4>
 <p>To submit your results, please email us your <strong>answer</strong>
  and <strong>source-code (one file)</strong>
-	to <strong>codejam@sci.website</strong>. 
+	to <strong>codejam@sci.website</strong>. Start your email subject
+	 with <strong>#CCSubmission</strong>. <br/><br/>
+	*<strong class="grey">If you don't get an auto-response immediately, please check if 
+	you used the right email address</strong>.
 </p>
-<p class="note">
+<!-- <p class="note">
 Do this for now, but the online submission system will be 
-up soon.</p>
+up soon.</p> -->
 
-<p><em>We wish you happy coding :)</em><br/>
+
+
+
+<p>We wish you happy coding :)<br/><br/>
 	&mdash; <strong>The CodeJam Team</strong></p>
 </div>
 
@@ -50,8 +67,8 @@ up soon.</p>
 </div>
 
 <div class="stats-note">
-<p><strong>2</strong> Submissions Received So far</p>
-<p><strong><?php echo($time_to_end); ?> Remaining</p>
+<p><strong>3 Submissions</strong> Received so far</p>
+<p><strong><?php echo($time_to_end); ?></strong> Remaining</p>
 </div>
 </div>
 
