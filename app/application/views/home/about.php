@@ -80,7 +80,7 @@ the community.
 </ul>
 
 <h3><i class="fa fa-send"></i> Contact Us</h3>
-<p><i class="fa fa-send"></i> codejam@sci.website</p>
+<p><i class="fa fa-send"></i> hello@codejam.sci.website</p>
 <p><i class="fa fa-twitter"></i> <a href="http://twitter.com/SCICodeJam" target="_blank">@SCICodeJam</a></p>
 <p><i class="fa fa-phone"></i> We still love good ol' email :)</p>
 
