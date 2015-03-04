@@ -61,13 +61,13 @@ up soon.</p> -->
 
 <div class="side-note">
 <p>Look out for the Suppliment Challenge, we will post 
-	on <strong>Tuesday, March 3 at 10.00am, EAT</strong></p>
+	on <strong>Wednesday, March 4 at 2.00pm, EAT</strong></p>
 </p>
 <p>This is optional.</p>
 </div>
 
 <div class="stats-note">
-<p><strong>3 Submissions</strong> Received so far</p>
+<p><strong>13 Submissions</strong> Received so far</p>
 <p><strong><?php echo($time_to_end); ?></strong> Remaining</p>
 </div>
 </div>

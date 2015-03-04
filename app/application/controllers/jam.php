@@ -26,7 +26,7 @@ class Jam extends CI_Controller {
 		$this->data['main'] = "jam/challenge";
 		$this->data['active'] = "challenge";
 		$this->load->helper('timer');
-		$this->data['time_to_end'] = timer_remaining('2015-03-04T10:00:00');
+		$this->data['time_to_end'] = timer_remaining('2015-03-05T18:00:00');
 		$this->_load_view();
 	}
 }
