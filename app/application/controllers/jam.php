@@ -6,6 +6,7 @@ class Jam extends CI_Controller {
 	function __construct(){
 		parent::__construct();
 		$this->load->model("member_model");
+		$this->data['active'] = "jam";
 	}
 
 	private function is_logged_in(){
@@ -18,6 +19,7 @@ class Jam extends CI_Controller {
 
 	public function index()
 	{
+		$this->data['active'] = "challenge";
 		$this->data['main'] = "jam/index";
 		$this->_load_view();
 	}
