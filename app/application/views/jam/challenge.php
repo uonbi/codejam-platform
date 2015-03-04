@@ -27,6 +27,19 @@
 	Give your answer correct to ten(10) decimal places.
 </p>
 
+<h3><i class="fa fa-code"></i> Supplimentary Challenge</h3>
+<p>The number 2401 is equal to the sum of its digits raised to 
+	some power: 2 + 4 + 0 + 1 = 7, and 7<sup>4</sup> = 2401. 
+	Another example of a number with this property is 
+	5832 = 18<sup>3</sup>.
+</p>
+<p>We shall define <strong>a(n)</strong> to be the nth term of 
+	this sequence and insist that <strong>a</strong> number 
+	must contain at least two digits to have a sum.
+</p>
+<p>You are given that a(3) = 2401, a(5) = 5832 and 
+	a(12) = 34012224. Find the last 20 digits in a(79).</p>
+
 <h4><i class="fa fa-comments"></i> Got any Questions/Comments?</h4>
 <p>Do you have any questions, or you need clarification on anything? 
 	The team is more than ready to respond to you:</p>
@@ -60,9 +73,9 @@ up soon.</p> -->
 <div class="col-md-3">
 
 <div class="side-note">
-<p>Look out for the Suppliment Challenge, we will post 
-	on <strong>Wednesday, March 4 at 2.00pm, EAT</strong></p>
-</p>
+<p>We've now added the supplimentary challenge, and the 
+<strong>Submission Deadline</strong> has been extended to 
+<strong>Thur, March 5, 2015 9.00 PM</strong></p>
 <p>This is optional.</p>
 </div>
 
