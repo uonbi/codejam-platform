@@ -80,7 +80,7 @@ up soon.</p> -->
 </div>
 
 <div class="stats-note">
-<p><strong>13 Submissions</strong> Received so far</p>
+<p><strong>17 Submissions</strong> Received so far</p>
 <p><strong><?php echo($time_to_end); ?></strong> Remaining</p>
 </div>
 </div>
