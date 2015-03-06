@@ -48,7 +48,7 @@
 		 target="_blank">the GitHub repo here</a>,</li>
 	<li>Tweet us <a href="https://twitter.com/SCICodeJam"
 		 target="_blank">@SCICodeJam</a>, OR</li>
-	<li>Send us an email <a href="mailto:codejam@sci.website">codejam@sci.website</a></li>
+	<li>Send us an email <a href="mailto:hello@codejam.sci.website">hello@codejam.sci.website</a></li>
 </ul>
 
 <h4><i class="fa fa-send"></i> How to Submit</h4>
@@ -78,7 +78,7 @@ up soon.</p> -->
 <div class="col-md-3">
 
 <div class="side-note">
-<p><strong>Submissions are clossed</strong>, we are now doing the final juding.
+<p><strong>Submissions are clossed</strong>, we are now doing the final judging.
 We will keep you posted, keep following the 
 <a href="https://twitter.com/hashtag/5yrcodejam?f=realtime&src=hash" target="_blank">#5yrCodeJam</a> and 
 <a href="https://twitter.com/hashtag/5yrtechbash?f=realtime&src=hash" target="_blank">#5yrTechBash</a> hashtags</p>
