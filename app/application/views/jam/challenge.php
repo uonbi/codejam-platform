@@ -59,6 +59,11 @@
 	*<strong class="grey">If you don't get an auto-response immediately, please check if 
 	you used the right email address</strong>.
 </p>
+<p><strong>HOWEVER:</strong> Submissions for the awards are now closed, but we can't stop you
+	 from submitting. Keep calm and let's crown the King and Queen of Code :)</p>
+
+	 <p><strong>Look out for our next challenge</strong> to be announced very soon. 
+	 	Please <?php echo anchor("home/register","register");?> and we will keep you posted.</p>
 <!-- <p class="note">
 Do this for now, but the online submission system will be 
 up soon.</p> -->
@@ -73,15 +78,16 @@ up soon.</p> -->
 <div class="col-md-3">
 
 <div class="side-note">
-<p>We've now added the supplimentary challenge, and the 
-<strong>Submission Deadline</strong> has been extended to 
-<strong>Thur, March 5, 2015 9.00 PM</strong></p>
-<p>This is optional.</p>
+<p><strong>Submissions are clossed</strong>, we are now doing the final juding.
+We will keep you posted, keep following the 
+<a href="https://twitter.com/hashtag/5yrcodejam?f=realtime&src=hash" target="_blank">#5yrCodeJam</a> and 
+<a href="https://twitter.com/hashtag/5yrtechbash?f=realtime&src=hash" target="_blank">#5yrTechBash</a> hashtags</p>
 </div>
 
 <div class="stats-note">
-<p><strong>17 Submissions</strong> Received so far</p>
-<p><strong><?php echo($time_to_end); ?></strong> Remaining</p>
+<p><strong>23 Submissions</strong> Received so far</p>
+<p><strong>Submissions Closed</strong></p>
+<!-- <p><strong><?php //echo($time_to_end); ?></strong> Remaining</p> -->
 </div>
 </div>
 
