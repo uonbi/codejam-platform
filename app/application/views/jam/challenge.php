@@ -38,7 +38,7 @@
 	must contain at least two digits to have a sum.
 </p>
 <p>You are given that a(3) = 2401, a(5) = 5832 and 
-	a(13) = 34012224. Find the last 20 digits in a(79).</p>
+	a(12) = 34012224. Find the last 20 digits in a(79).</p>
 
 <h4><i class="fa fa-comments"></i> Got any Questions/Comments?</h4>
 <p>Do you have any questions, or you need clarification on anything? 
